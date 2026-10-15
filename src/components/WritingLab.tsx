@@ -23,7 +23,6 @@ import {
 } from 'lucide-react';
 import { WRITING_PROMPTS_DATA } from '../data/writingPromptsData';
 import { BrandWritingIcon } from './BrandIcons';
-import { getPublicMediaUrl } from '../utils/publicMediaUrl';
 
 export const WritingLab: React.FC = () => {
   const [selectedPromptId, setSelectedPromptId] = useState<string>(WRITING_PROMPTS_DATA[0].id);
@@ -914,7 +913,7 @@ export const WritingLab: React.FC = () => {
           <div className="p-3 sm:p-4 bg-white rounded-3xl border border-slate-200 shadow-md space-y-2.5 max-w-3xl mx-auto">
             <div className="w-full max-w-full rounded-2xl overflow-hidden bg-black shadow-inner">
               <video
-                src={getPublicMediaUrl('videos/فيديو.MP4')}
+                src="/videos/فيديو.MP4"
                 controls
                 preload="metadata"
                 playsInline
