@@ -1,0 +1,8 @@
+{
+  "name": "Remix إتقان ENGLISH - مراجعة اختبار المنتصف",
+  "description": "منصة إتقان لتعليم اللغة الإنجليزية: مراجعة تفاعلية شاملة لاختبار المنتصف لمقرر Q: Skills for Success Book 1 (الوحدات 3، 4، 5، 6) لعمادة السنة التحضيرية بجامعة الإمام عبد الرحمن بن فيصل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

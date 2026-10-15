@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Almarai', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-brand-en {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Brand Colors custom utilities */
+:root {
+  --itqan-blue: #214ecf;
+  --itqan-soft-blue: #84a5f2;
+  --itqan-amber: #ea9835;
+  --itqan-coral: #e06045;
+  --itqan-cream: #fcded6;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84a5f2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #214ecf;
+}
